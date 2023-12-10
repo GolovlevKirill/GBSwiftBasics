@@ -50,7 +50,7 @@ for i in 10...50 where i % 2 != 0{
     print("i+k = " + String(i + k))
     if ((i + k) % 2 == 0) {
             print(i+k)
-            k += 2
+            k += 1
     } else {
         print("Next")
         break
