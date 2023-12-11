@@ -3,7 +3,6 @@ import UIKit
 var str = "DZ2 Swift Basics"
 
 //Написать функцию, которая на вход принимает число: сумма, которую пользователь хочет положить на вклад, следующий аргумент это годовой процент, третий аргумент это срок Функция возвращает сколько денег получит пользователь по итогу.
-//
 
 func calcDeposit (value: Double, percentage: Double, period: Int) -> Double {
     let res: Double = ((value * percentage * Double(period)/365)/100)
